@@ -5,6 +5,8 @@ This repository contains all code needed to recreate Fig 1 in the manuscript "JW
 ## Citation
 Please use the following citation for all references to the code or data:
 
+## Reproducible Results Statement
+The code used to generate Fig. 1 is available in a Github repository (https://github.com/jstagge/wrpm_reproduc). Kyungmin Sung (OSU) downloaded and ran the code and succesfully reproduced the results presented.
 
 ## To run on a personal computer
 
