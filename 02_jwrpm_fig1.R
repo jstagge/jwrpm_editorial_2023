@@ -227,6 +227,6 @@ p <- ggplot(plot_df %>% filter(ae_decisions != "Declined"), aes(x=date, y=cumsum
 p
 
 ### Save plot
-ggsave(file.path(write_figures_path, "cum_plot_step.png"), p,  width = 4.5, height = 3.5, dpi = 600)
-ggsave(file.path(write_figures_path, "cum_plot_step.pdf"), p,  width = 4.5, height = 3.5)
-ggsave(file.path(write_figures_path, "cum_plot_step.svg"), p,  width = 4.5, height = 3.5)
+ggsave(file.path(write_figures_path, "fig_1.png"), p,  width = 4.5, height = 3.5, dpi = 600)
+ggsave(file.path(write_figures_path, "fig_1.pdf"), p,  width = 4.5, height = 3.5)
+ggsave(file.path(write_figures_path, "fig_1.svg"), p,  width = 4.5, height = 3.5)
