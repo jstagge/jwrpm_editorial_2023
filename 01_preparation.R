@@ -23,7 +23,7 @@ library(versions)
 
 # install correct versions of required packages
 #install.versions(c('tidyverse', 'readxl', 'lubridate', 'here'), c('2.0.0', '1.4.3', '1.9.3', '1.0.1'), repos = "http://cran.us.r-project.org")
-install.packages(c('tidyverse', 'readxl', 'lubridate', 'here'))
+install.packages(c('tidyverse', 'readxl', 'lubridate', 'here', 'svglite'))
 
 ###########################################################################
 ## Set the Paths and create folders
