@@ -5,8 +5,12 @@ This repository contains all code needed to recreate Fig 1 in the manuscript "JW
 ## Citation
 Please use the following citation for all references to the code or data:
 
+- Stagge, J.H. Rosenberg, D.E., Abdallah, A.M., Castronova, A.M., Ostfeld, A., and Spackman Jones, A.. (2023) jstagge/jwrpm_editorial_2023. Github. doi:10.5281/ZENODO.10125823
+
+[![DOI](https://zenodo.org/badge/718644572.svg)](https://zenodo.org/doi/10.5281/zenodo.10125822)
+
 ## Reproducible Results Statement
-The code used to generate Fig. 1 is available in a Github repository (https://github.com/jstagge/wrpm_reproduc). Kyungmin Sung and Irenee Munyejuru (Ohio State University) downloaded, ran the code, and successfully reproduced the results presented.
+The code used to generate Fig. 1 is available in a Github repository (https://github.com/jstagge/wrpm_reproduc). Kyungmin Sung and Irenee Munyejuru (Ohio State University) downloaded the repository, ran the code, and successfully reproduced Fig. 1 as presented.
 
 ## To run on a personal computer
 
