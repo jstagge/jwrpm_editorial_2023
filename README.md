@@ -14,17 +14,18 @@ The code used to generate Fig. 1 is available in a Github repository (https://gi
 If you would like to simply recreate the results of Stagge et al. (2023, in review), you may run the following in R after setting the working directory to the downloaded folder:
 
 ```
-source("00_run_all.R")
+source("run_all.R")
 ```
 You will find the results under output/figures/fig_1.
 
 ### Running scripts individually
-Alternatively, you may open and run each file in order.  Code is numbered based on the order of operations:
+Alternatively, you may open and run each file in order.  The code is numbered based on the order of operations.
 
 ```
 source("01_preparation.R")
 source("02_jwrpm_fig1.R")
 ```
+You will find the results under output/figures/fig_1.
 
 ## Software versions
 All code is written in the R language.
