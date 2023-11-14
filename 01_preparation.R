@@ -12,16 +12,18 @@
 ## Install and run Versions to get the correct package versions
 ###########################################################################
 install.packages("versions")
+#install.packages("checkpoint")
 library(versions)
 
 ###########################################################################
 ## Set the install date and get the package versions used in this study
 ###########################################################################
 # install yesterday's version of checkpoint, by date
-install.dates('checkpoint', Sys.Date() - 1)
+#install.dates('checkpoint', Sys.Date() - 1)
 
 # install correct versions of required packages
-install.versions(c('tidyverse', 'readxl', 'lubridate', 'here'), c('2.0.0', '1.4.3', '1.9.3', '1.0.1'))
+#install.versions(c('tidyverse', 'readxl', 'lubridate', 'here'), c('2.0.0', '1.4.3', '1.9.3', '1.0.1'), repos = "http://cran.us.r-project.org")
+install.packages(c('tidyverse', 'readxl', 'lubridate', 'here'))
 
 ###########################################################################
 ## Set the Paths and create folders
